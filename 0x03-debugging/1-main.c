@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
 * main - causes an infinite loop
@@ -9,10 +9,8 @@ int main(void)
 {
 	int i;
 
-
 	i = 0;
 	positive_or_negative(i);
-
 	return (0);
 }
 
